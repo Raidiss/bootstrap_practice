@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+  <title>Bootstrap Homework</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href=""></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#series">TV Serie<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#music">Music</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#films">Films</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container">
+    <h2 id="series" class="my-4 text-center">TV's Series</h2>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top"
+          src="https://starzplay-img-prod-ssl.akamaized.net/474w/WarnerBrothers/FRIENDSY1994S10E001/FRIENDSY1994S10E001-474x677-PST.jpg"
+          alt="Card image cap" data-toggle="modal" data-target="#friendsModal">
+        <div class="card-body">
+          <h5 class="card-title">Friends</h5>
+          <p class="card-text">Three young men and three young women -- of the BFF kind -- live in the same apartment
+            complex and face life and love in New York...</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top"
+          src="https://m.media-amazon.com/images/M/MV5BZjZjMzQ2ZmUtZWEyZC00NWJiLWFjM2UtMzhmYzZmZDcxMzllXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg"
+          alt="Card image cap" data-toggle="modal" data-target="#seinfeldModal">
+        <div class="card-body">
+          <h5 class="card-title">Seinfeld</h5>
+          <p class="card-text">Four single friends -- comic Jerry Seinfeld, bungling George Costanza, frustrated working
+            gal Elaine Benes and eccentric neighbor Cosmo Kramer -- deal with the absurdities of everyday life in New
+            York City...</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="http://www.gstatic.com/tv/thumb/tvbanners/15720821/p15720821_b_v8_ab.jpg"
+          alt="Card image cap" data-toggle="modal" data-target="#binbangModal">
+        <div class="card-body">
+          <h5 class="card-title">The Big Bang Theory</h5>
+          <p class="card-text">TMensa-fied best friends and roommates Leonard and Sheldon, physicists who work
+            at the California Institute of Technology...</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+    </div>
+    <h2 id="music" class="my-4 text-center" id="series">Music</h2>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="https://pixel.nymag.com/imgs/daily/vulture/2018/11/19/19-coldplay.w700.h700.jpg"
+          alt="Card image cap" data-toggle="modal" data-target="#coldplayModal">
+        <div class="card-body">
+          <h5 class="card-title">Coldplay</h5>
+          <p class="card-text">Coldplay are a British rock band formed in London in 1996.The four members – lead
+            vocalist/pianist Chris Martin...</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://i.ytimg.com/vi/o64k0TeUd_8/maxresdefault.jpg" alt="Card image cap"
+          data-toggle="modal" data-target="#daveModal">
+        <div class="card-body">
+          <h5 class="card-title">Dave Matthews Band</h5>
+          <p class="card-text">Dave Matthews Band, also known by the initialism DMB, is an American rock band
+            that was formed in Charlottesville, Virginia in 1991...</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://timedotcom.files.wordpress.com/2016/04/simone.jpeg" alt="Card image cap"
+          data-toggle="modal" data-target="#ninaModal">
+        <div class="card-body">
+          <h5 class="card-title">Nina Simone</h5>
+          <p class="card-text">unice Kathleen Waymon, known professionally as Nina Simone, was an American
+            singer, songwriter, musician, arranger, and civil rights activist...</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+    </div>
+    <h2 id="films" class="my-4 text-center" id="music">Films</h2>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="http://www.gstatic.com/tv/thumb/v22vodart/22005/p22005_v_v8_ad.jpg"
+          alt="Card image cap" data-toggle="modal" data-target="#lifeModal">
+        <div class="card-body">
+          <h5 class="card-title">Life Is Beautiful</h5>
+          <p class="card-text">A gentle Jewish-Italian waiter, Guido Orefice (Roberto Benigni), meets Dora
+            (Nicoletta Braschi), a pretty schoolteacher, and wins her over with his charm and humor...</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://www.alcatrazeast.com/wp-content/uploads/2017/05/The-Godfather-1.jpg"
+          alt="Card image cap" data-toggle="modal" data-target="#godfatherModal">
+        <div class="card-body">
+          <h5 class="card-title">The Godfather</h5>
+          <p class="card-text">Widely regarded as one of the greatest films of all time, this mob drama, based
+            on Mario Puzo's novel of the same name, focuses on the powerful Italian-American crime family of Don
+            Vito Corleone (Marlon Brando)...</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top"
+          src="https://2.bp.blogspot.com/-adEYT1syfjU/WEehYo2YNHI/AAAAAAAB6tM/-GMZUMhaUZk6XOjd-GLYUt95eMOFw8xIgCLcB/s1600/9780143784760.jpg"
+          alt="Card image cap" data-toggle="modal" data-target="#lionModal">
+        <div class="card-body">
+          <h5 class="card-title">Lion</h5>
+          <p class="card-text">Five year old Saroo gets lost on a train which takes him thousands of miles
+            across India, away from home and family...</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+    </div>
+    </div>
+  <!-- Footer -->
+  <footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+
+        <li class="list-inline-item">
+          <a target="_blank" href="https://twitter.com/Raidisss"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a target="_blank" href="mailto:raidiss@gmail.com"><i class="fas fa-envelope"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a target="_blank" href="https://www.linkedin.com/in/raidis-chacon-4b9344182"><i
+              class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a target="_blank" href="https://github.com/Raidiss"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+    </div>
+    <!-- Footer Elements -->
+    <div class="elements">
+      <div class="uploads">
+        <form>
+          <div class="form-group">
+              <label for="exampleFormControlFile1">Add more</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+        </form>
+      </div>
+      <div class="contact">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="page">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+      </footer>
+  <!-- Footer -->
+  <!-- Modals -->
+  <!-- Friends Modal -->
+  <div class="modal fade" id="friendsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Friends</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Three young men and three young women -- of the BFF kind -- live in the same apartment complex and face life and love in New York. They're not above sticking their noses into one another's business and swapping romantic partners, which always leads to the kind of hilarity average people will never experience -- especially during breakups.
+          First episode date: September 22, 1994
+          Final episode date: May 6, 2004
+          No. of episodes: 236 (list of episodes)
+          Production locations: Burbank, California</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Friends Modal -->
+
+<!-- Seinfeld Modal -->
+<div class="modal fade" id="seinfeldModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Siendfeld</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>Four single friends -- comic Jerry Seinfeld, bungling George Costanza, frustrated working gal Elaine Benes and eccentric neighbor Cosmo Kramer -- deal with the absurdities of everyday life in New York City.
+        First episode date: July 5, 1989
+        Final episode date: May 14, 1998
+        Theme song: Seinfeld
+        Program creators: Jerry Seinfeld, Larry David </p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+    </div>
+  </div>
+</div>
+</div>
+<!-- End Seinfeld Modal -->
+<!-- Bing Bang Theory Modal -->
+<div class="modal fade" id="binbangModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Bin Bang Theory </h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>Mensa-fied best friends and roommates Leonard and Sheldon, physicists who work at the California Institute of Technology, may be able to tell everybody more than they want to know about quantum physics, but getting through most basic social situations, especially ones involving women, totally baffles them. How lucky, then, that babe-alicious waitress/aspiring actress Penny moves in next door. Frequently seen hanging out with Leonard and Sheldon are friends and fellow Caltech scientists Wolowitz and Koothrappali. Will worlds collide? Does Einstein theorize in the woods?
+      First episode date: September 24, 2007
+      Final episode date: May 16, 2019
+      Network: CBS
+      Spin-off: Young Sheldon </p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+    </div>
+  </div>
+</div>
+</div>
+<!-- Bing Bang Theory Modal -->
+<!-- Coldplay Modal -->
+<div class="modal fade" id="coldplayModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Coldplay</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>Coldplay are a British rock band formed in London in 1996.The four members – lead vocalist/pianist Chris Martin, lead guitarist Jonny Buckland, bassist Guy Berryman and drummer Will Champion – were at University College London and came together from 1996 to 1998, during which time the band changed names from Pectoralz, to Starfish, then Coldplay.Creative director and former manager Phil Harvey is often referred to as the fifth member by the band.They recorded and released two EPs: Safety in 1998 and The Blue Room in 1999. The latter was their first release on a major label, after signing to Parlophone.</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+    </div>
+  </div>
+</div>
+</div>
+<!-- End Coldplay Modal
+<!-- Dave Matthews Modal  -->
+<div class="modal fade" id="daveModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Dave Matthews Band</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>Dave Matthews Band, also known by the initialism DMB, is an American rock band that was formed in Charlottesville, Virginia in 1991. The founding members were singer-songwriter and guitarist Dave Matthews, bassist Stefan Lessard, drummer and backing vocalist Carter Beauford, and saxophonist LeRoi Moore. Boyd Tinsley joined the band as a violinist soon after. In August 2008, LeRoi Moore died due to complications from injuries sustained in an ATV accident. Soon after, Grammy Award winner Jeff Coffin[4] (of Béla Fleck and the Flecktones) joined and since filled Moore's spot as saxophonist. In May 2018, a lawsuit alleging sexual misconduct was filed against Tinsley by a former bandmate in his side project, an accusation that Tinsley denies. As a consequence, Tinsley was officially fired from the band.</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+    </div>
+  </div>
+</div>
+</div>
+<!-- End Dave Matthews Modal -->
+<!-- Nina Simone Modal -->
+<div class="modal fade" id="ninaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Nina Simone</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>Eunice Kathleen Waymon (February 21, 1933 – April 21, 2003), known professionally as Nina Simone (/ˈniːnə sɪˈmoʊn/), was an American singer, songwriter, musician, arranger, and civil rights activist. Her music spanned a broad range of musical styles including classical, jazz, blues, folk, R&B, gospel, and pop.The sixth of eight children born to a poor family in Tryon, North Carolina, Simone initially aspired to be a concert pianist.With the help of a few supporters in her hometown, she enrolled in the Juilliard School of Music in New York City.[2] She then applied for a scholarship to study at the prestigious Curtis Institute of Music in Philadelphia, where she was denied admission despite a well-received audition, swhich she attributed to racial discrimination. In 2003, just days before her death, the Institute awarded her an honorary degree.</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+    </div>
+  </div>
+ </div>
+ </div>
+ <!-- End Nina Simone -->
+  <!-- Life is Beautiful Modal -->
+  <div class="modal fade" id="lifeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Life is Beautiful</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>A gentle Jewish-Italian waiter, Guido Orefice (Roberto Benigni), meets Dora (Nicoletta Braschi), a pretty schoolteacher, and wins her over with his charm and humor. Eventually they marry and have a son, Giosue (Giorgio Cantarini). Their happiness is abruptly halted, however, when Guido and Giosue are separated from Dora and taken to a concentration camp. Determined to shelter his son from the horrors of his surroundings, Guido convinces Giosue that their time in the camp is merely a game.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- End Life is Beautiful Modal -->
+  <!-- The Godfather Modal -->
+  <div class="modal fade" id="godfatherModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">The Godfather</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Widely regarded as one of the greatest films of all time, this mob drama, based on Mario Puzo's
+          novel of the same name, focuses on the powerful Italian-American crime family of Don Vito Corleone
+          (Marlon Brando). When the don's youngest son, Michael (Al Pacino), reluctantly joins the Mafia, he
+          becomes involved in the inevitable cycle of violence and betrayal. Although Michael tries to
+          maintain a normal relationship with his wife, Kay (Diane Keaton), he is drawn deeper into the family
+          business.
+          Release date: March 24, 1972 (USA)
+          Director: Francis Ford Coppola
+          Featured song: Speak Softly Love
+          Story by: Mario Puzo
+          Screenplay: Francis Ford Coppola, Mario Puzo, Robert Towne </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- End The Godfather Modal -->
+<!-- lion Modal -->
+<div class="modal fade" id="lionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Lion</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Five year old Saroo gets lost on a train which takes him thousands of miles across India, away from home and family. Saroo must learn to survive alone in Kolkata, before ultimately being adopted by an Australian couple. Twenty-five years later, armed with only a handful of memories, his unwavering determination, and a revolutionary technology known as Google Earth, he sets out to find his lost family and finally return to his first home.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End The Godfather Modal -->
+
+</body>
+
+</html>
