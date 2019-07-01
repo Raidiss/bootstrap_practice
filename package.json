@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap_practice",
+  "version": "1.0.0",
+  "description": "node/express server",
+  "main": "index.js",
+  "repository": "https://github.com/Raidiss/bootstrap_practice",
+  "author": "Raidis Chacon",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+ "scripts": {
+  "start": "node index.js"
+},
+"engines": {
+   "node": ">=11.13.0"
+}
+}
